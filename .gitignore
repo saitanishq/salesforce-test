@@ -43,4 +43,5 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 
 # Local environment variables
-.env
+.venv
+get-testclasses.py
