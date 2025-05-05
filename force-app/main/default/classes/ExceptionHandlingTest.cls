@@ -7,7 +7,7 @@ public with sharing class ExceptionHandlingTest {
         DataWeave.Script script = new DataWeaveScriptResource.error();
         try {
             DataWeave.Result result = script.execute(new Map<String, Object>());
-            System.debug("hello");
+            System.debug("hello world");
             Assert.fail('Exception expected');
         } catch (Exception ex) {
             Assert.isInstanceOfType(ex, DataWeaveScriptException.class, 'Exception of type DataWeaveScriptException expected');
